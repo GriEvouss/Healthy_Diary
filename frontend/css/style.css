@@ -1,0 +1,101 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-header {
+    font-weight: 600;
+    border-bottom: none;
+}
+
+.table th {
+    border-top: none;
+    font-weight: 600;
+    color: #495057;
+}
+
+.table td {
+    vertical-align: middle;
+}
+
+#intensity-value {
+    font-weight: bold;
+    color: #0d6efd;
+    font-size: 1.2em;
+}
+
+.form-range::-webkit-slider-thumb {
+    background-color: #0d6efd;
+}
+
+.form-range::-moz-range-thumb {
+    background-color: #0d6efd;
+}
+
+#current-date {
+    font-weight: 500;
+    background: rgba(255,255,255,0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+}
+
+.btn {
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+.alert {
+    border: none;
+    border-left: 5px solid #0dcaf0;
+}
+
+/* Стили для страницы авторизации */
+.auth-page {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 2rem 0;
+}
+
+.auth-page .card {
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
+.auth-page .nav-pills .nav-link {
+    border-radius: 10px;
+    margin: 0 5px;
+    transition: all 0.3s;
+}
+
+.auth-page .nav-pills .nav-link.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+.auth-page .nav-pills .nav-link:not(.active) {
+    background-color: #f8f9fa;
+    color: #495057;
+}
+
+.auth-page .nav-pills .nav-link:hover:not(.active) {
+    background-color: #e9ecef;
+}
